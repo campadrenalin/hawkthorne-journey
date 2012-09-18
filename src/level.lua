@@ -234,6 +234,10 @@ function Level:enter(previous, character)
             self.player:respawn()
         end
     end
+    
+    for i,node in ipairs(self.nodes) do
+        if node.enter then node:enter(previous, character) end
+    end
 end
 
 function Level:init()
@@ -264,7 +268,7 @@ function Level:update(dt)
     end
 
     local x = self.player.position.x + self.player.width / 2
-    local y = self.player.position.y - self.map.tilewidth * 2.5
+    local y = self.player.position.y - self.map.tilewidth * 4.5
     camera:setPosition(math.max(x - window.width / 2, 0),
                        math.min(math.max(y, 0), self.offset))
     Timer.update(dt)
@@ -292,17 +296,28 @@ function Level:draw()
 end
 
 function Level:leave()
+    for i,node in ipairs(self.nodes) do
+        if node.leave then node:leave() end
+    end
 end
-
 
 function Level:keyreleased(key)
     -- taken from sonic physics http://info.sonicretro.org/SPG:Jumping
-    if key == ' ' and self.jumping then
+    if key == ' ' and self.jumping and not self.player.inventory.visible then
         self.player.halfjumpQueue:push('jump')
     end
 end
 
 function Level:keypressed(key)
+
+    if key == 'escape' and self.player.state ~= 'dead' then
+        Gamestate.switch('pause')
+        return
+    end
+    
+    if self.player.inventory.visible then
+        return
+    end
     -- taken from sonic physics http://info.sonicretro.org/SPG:Jumping
     if key == ' ' and self.jumping then
         self.player.jumpQueue:push('jump')
@@ -314,10 +329,6 @@ function Level:keypressed(key)
         end
     end
 
-    if key == 'escape' and self.player.state ~= 'dead' then
-        Gamestate.switch('pause')
-        return
-    end
 end
 
 return Level

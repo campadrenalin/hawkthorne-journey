@@ -75,7 +75,6 @@ state.zones = {
 
 
 function state:init()
-    self.tide = false
     self:reset()
 end
 
@@ -97,7 +96,7 @@ function state:enter(previous, character)
 end
 
 function state:leave()
-    camera:scale(.5, .5)
+    camera:scale(window.scale)
     fonts.reset()
 end
 
@@ -185,7 +184,7 @@ function state:keypressed(key)
         return
     end
 
-    if key == 'return' then
+    if key == 'return' or key == 'kpenter' then
         if not self.zone.level then
             return
         end

@@ -2,7 +2,7 @@ local anim8 = require 'vendor/anim8'
 
 local plyr = {}
 plyr.name = 'troy'
-plyr.offset = 11
+plyr.offset = 8
 plyr.ow = 6
 plyr.costumes = {
     {name='Troy Barnes', sheet='images/troy.png'},
@@ -10,14 +10,15 @@ plyr.costumes = {
     -- {name='Blanketsburg', sheet='images/troy_blanket.png'},
     {name='Bumblebee', sheet='images/troy_bumblebee.png'},
     {name='Childish Gambino', sheet='images/troy_gambino.png'},
+    {name='Christmas Troy', sheet='images/troy_christmas_tree.png'},
     -- {name='Constable Reggie', sheet='images/troy_reggie.png'},
     -- {name='Eddie Murphy', sheet='images/troy_eddie.png'},
     {name='Detective', sheet='images/troy_detective.png'},
     {name='Kickpuncher', sheet='images/troy_kick.png'},
     -- {name='King of Clubs', sheet='images/troy_clubs.png'},
     {name='Library Nerd', sheet='images/troy_library.png'},
-	{name='Night Troy', sheet='images/troy_night.png'},
-    -- {name='Ripley', sheet='images/troy_ridley.png'},
+    {name='Night Troy', sheet='images/troy_night.png'},
+    {name='Ripley', sheet='images/troy_ridley.png'},
     {name='Pant Suit', sheet='images/troy_pantsuit.png'},
     {name='Paintball', sheet='images/troy_paintball.png'},
     {name='Sexy Dracula', sheet='images/troy_sexyvampire.png'},
@@ -38,7 +39,7 @@ function plyr.new(sheet)
     local g = anim8.newGrid(48, 48, new_plyr.sheet:getWidth(),
         new_plyr.sheet:getHeight())
 
-    local warp = anim8.newGrid(36, 223, beam:getWidth(),
+    local warp = anim8.newGrid(36, 300, beam:getWidth(),
         beam:getHeight())
 
     new_plyr.hand_offset = 18
