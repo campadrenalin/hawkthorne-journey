@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="70" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="blue" value="247"/>
+  <property name="green" value="216"/>
+  <property name="offset" value="56"/>
+  <property name="red" value="74"/>
+  <property name="title" value="Treeline"/>
+ </properties>
+ <tileset firstgid="1" name="village-forest-treeline" tilewidth="24" tileheight="24">
+  <image source="village-forest-treeline.png" width="288" height="288"/>
+ </tileset>
+ <layer name="mountains" width="30" height="70">
+  <properties>
+   <property name="parallax" value="0.5"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0kEOQEAUBFGHmWM4nKNbIJmI8MfwWbxKatu16WEAAAAAAAD4N+PilN0sq1ntupnVPmq+3T5rtraj34g0o+3oN1qaV3vRb9xpbrZs1e2e5r4b/UZvs+4+sdXazW6Wj5okSZJkrzML+IS1
+  </data>
+ </layer>
+ <layer name="mountains shades" width="30" height="70">
+  <properties>
+   <property name="parallax" value="0.5"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzdEJgDAMRdGOplb3X6k4QEsjqSKcA/cv5JUCAAAAAO+4AkX+Ze6Ofkbun2z2ds9Os3czRX9lbH7ZrUrJHdKCdkn6SZu0oAYk6t/v
+  </data>
+ </layer>
+ <layer name="clouds" width="30" height="70">
+  <properties>
+   <property name="parallax" value="0.65"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKwCAMBdBM7bV6NI/m0ZqhBccMrdD6HohLIKCSbwQAADDTlmuPaLm3yX2P7Ntz7zP7Av92zbTpc+2eaeba2ry/dzjX73FnAFSMeVGpeSpTxryo1MgUqFvhH3gCZnUbhw==
+  </data>
+ </layer>
+ <layer name="clouds overlap" width="30" height="70">
+  <properties>
+   <property name="parallax" value="0.65"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzbENACAMA8FUsBajMVpGI4ieEpo76SV3jgAAAAAAAAD4r1X9NGvPh7+jPnNXO1/9AncL27sDtQ==
+  </data>
+ </layer>
+ <layer name="background" width="30" height="70">
+  <properties>
+   <property name="parallax" value="0.45"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt07sNgDAMRdFX0NFkAA/DKIySURiF0TASSJEQvxSJINfSK2JbOZUlqZei51Bn/bvZk/nVDi4uLi4uLi4ubl7h4n7Fbe1+cXFx23ZNGoI07fH3XMJ1S12SUM+Nf3atkqvNdm9cYwXdt//i4uLi4uLi4uLi4uLmugvAOKhp
+  </data>
+ </layer>
+ <layer name="Leaves -1" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmF0OgjAQhPug7/LeJh7CA3iUHoWjcBSOwlHcKjVN7Z+lUwjZSTYmEPdzKgxbhGCxWCwWi8VilUgKMd0iRefuKC71F5dI0bmRucytkdyJa9nEWPySYO7ZpCh7Bsoet+jYjGZe6dOvAcil3s8Qc0+uKdRa57hbPcvI91FcJ1dqueMWrqmQ5x7ckOchwTwB96eHynBVm/832MOwyZdu5TX1vPLyeFKfPH7zbdV6DWnlBfNYAWfS1HVUu64NuHMrzjrTf/v14vr3bU+um5G9udazf68g7ptcRrZWbMaOPYPRXLTno3HRKuW1/i0InyV9EGtcsgdF+T06l45rU5QXuge3FetfLkI9uQ/qS2VyfYnkPZRr5L9LQq6xy13f52jnWu3CTcnOxr24/iyO5sZmfxQ3tddAcnN71hcQp1TD
+  </data>
+ </layer>
+ <layer name="Trees 1" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztl9sOwiAMhkl8D/VGne5qujgfj0e3ZMMQUs4nYTQhO0D77YdCVkK6deu2B5sKMC+E0Gm9ZrV548474w7Q7tAembk59d6AeW14fRlDjt8iF3KUQq7SoQK92FibeJ1bD/cJ15ciFj9zWtKbgivu6T3ojcXV5V5K7j/Ps4t1bjmu/C42V3X26rjYN/jUP656sT6f/5iUXN36yH3Y3NtwsTrEhauKbaPXJR91XOz/NAe3lN4YXFX92are2rmYf+eaTRw7wv3o4Z+TO1bKlWJ5c0OMcy3HRuF+wH8xcNl3vT253BeLb9Ir+h6hnRJxxWc+H9w3pV7sOZS7rBqSckV/nd7D1nJw5T4XvVAPs7r4d27IWkK44nro9IrcM7yDXKfHRHpV3Bh6Q7l8vlRc7LyqRa+8N1NymZXQa+Ka1rcWvV9eBhCZ
+  </data>
+ </layer>
+ <layer name="rope" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt18ENgCAMhWFG8SRHB3D/vYQ7SaWWUuT/Em/Ck1gspgQAAODr2iz3npQLAMDfSb19VO+X5h3V+7Xz7nb20uRavDPOmkBsZ7myYhx7GzNF6aWHUy51L4tSE14Z2tyeca1739Ti1+e1XFvP3lntn4LvAqoHKYwHMA==
+  </data>
+ </layer>
+ <layer name="Leaves 1" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmDFywjAQRZeQIimMm6SwncK9BzoKUrki1/BRfBSOkqNwlKwiayA7kscar1ZEoz/zR6ABP68sw/oDZFFVAH0B0Brj+1aCucGROjS7sDA3en7MXD5VDm4VmKtEa+autQa47P66rfV9o1iDMWetivmEIzWyv7kYNu0szMy9Ca9Lr64/de15nr5cnO851oeRO/pwa/2dgbp2HIeLa3Rc+Dlu7lJF5Lr2Ayv3jP7S4+9xp/1wpXbth9S0Rx8s3geu/4T+tPj0D9b9DLf9k/UY8r0mDfY1JTrYCTl4W3y9lYKiyomXuWlym0hcw8a6B2VhdDAt7c+yAJ7RHxH+B2MwfYXP4JfCYVvWxNVTuHKX0NlLSO7c2qRY75xc+VbqmR4yrtQSmZ6kph6xpW4CZ0+0dzEuA69v5mZuSlzai3fI6/S8lUuzqLVs04uv6cm7SL+pj8gl2dh477X52ByXZGPjvdfmY4Yr/Zxjq/cV5170KMp9x7k3PYpyJSTF/QGif1kC
+  </data>
+ </layer>
+ <layer name="Leaves 2" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOgjAQRUfDlsZtGxbsPYAuPQpH4SgcxaNwFKehTUotVbQzSJyX/EAI4WVS0k4LIAiC8N9ogKEGaOPg8zul84DXVNDdczt98J22tLd+4aSqeSuvfsOricY4VzPVf2XJ1UzpBViumdqrJ0cXh2psBUHYH66/eOoxKPsLS2Ze/MhrsAYVxCx8p5TX+454H0YRe1Xk26G3p/S6dW+Ms3bdW+sthdnIC5Cu2TD0C2Zydz4cTkEQhBKcsA+waRjm6JjKhdtfwcw9855x/sY89WSuL2sLevuUN7WOqS/WlCpyc3q3qDd2h94r3l8IvegafRrGenME/7P1jGEoexXvpQTH0o4puzcG+/Ob24cO1HvPkHCfQn0m9wvecH8kZ4GCwMMD9O9JzA==
+  </data>
+ </layer>
+ <layer name="Leaves 3" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt1kduwkAYhuEJe9jbK46RZVaR0ntvpPfeC4nTezmCj5KjcJS8yIk0smwltsZDEv2f9AhkAS/DAlBKJpPJZDKZviY0owWtaEM7OtCJLnSjB70Gu33oxwAGMYRhjGAUYxjHBEoGu5OYwjRmMIs5zGMBi1jCMlYMdlexhnVsYBNb2MYOdrGHfRwY7B7iCMc4QRmnOIOHc1zgElcGu9e4wS3ucI8HPOIJz3jBK95+8HqNAc/gW5TJZDWeo5Sf/8T9d1vNOm51Nvr5UFNrS/d/dz3bXa5VnIy7TtApfcm6J5PJ/ub033mbPf070caivou/m6tUQ0GpInw35W9U0i4dP8etjmvFrLuFUDMXXPOy7EadNe2Zk3Sjzpr2zE6NutWFz2yrG/5/Efc413A3yeLOnKZbn+A5cV034/NGfdZZN/U2565U2WrKZDLZb9oHRZ4+gQ==
+  </data>
+ </layer>
+ <layer name="Leaves 4" width="30" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztlj0KwkAQRkdSB+uQxqPY+lMJ2mvvAew8So7iUXIUv8UVwoJYmJ0pfA8epFjy2C1m1wwAAADmYiO3cif3H9YcKnSP8lThv984y0tA9xrQTNyCugAAAAD/ztJs1UvvbpP1bjcW0552deZ3unTn7vYBXc+9Truee01on6N3s6QzW7dmQ1LfD6+uerbIto5nQJcu3d/pXr0x2QXPsFpoPg+940x8k+/AkG6+B13bxXvDrV28r+hW4gk5/xu9
+  </data>
+ </layer>
+ <objectgroup name="platform" width="30" height="70" visible="0">
+  <object x="251" y="1536" width="214" height="23"/>
+  <object x="132" y="1584" width="35" height="23"/>
+  <object x="251" y="1633" width="35" height="23"/>
+  <object x="183" y="1487" width="44" height="25"/>
+  <object x="347" y="1392" width="36" height="25"/>
+  <object x="589" y="1464" width="33" height="25"/>
+  <object x="622" y="1344" width="36" height="23"/>
+  <object x="647" y="1427" width="73" height="21"/>
+  <object x="431" y="1296" width="35" height="23"/>
+  <object x="13" y="1343" width="41" height="23"/>
+  <object x="216" y="1090" width="48" height="18"/>
+  <object x="251" y="1032" width="42" height="25"/>
+  <object x="570" y="960" width="41" height="23"/>
+  <object x="484" y="912" width="31" height="23"/>
+  <object x="363" y="840" width="32" height="24"/>
+  <object x="108" y="937" width="40" height="23"/>
+  <object x="672" y="1019" width="47" height="23"/>
+  <object x="635" y="672" width="36" height="25"/>
+  <object x="383" y="683" width="48" height="21"/>
+  <object x="210" y="624" width="41" height="23"/>
+  <object x="119" y="610" width="49" height="21"/>
+  <object x="421" y="552" width="189" height="23"/>
+  <object x="89" y="432" width="41" height="23"/>
+  <object x="220" y="336" width="32" height="23"/>
+  <object x="301" y="288" width="40" height="23"/>
+  <object x="601" y="491" width="47" height="18"/>
+  <object x="148" y="475" width="223" height="19"/>
+  <object x="174" y="426" width="48" height="17"/>
+  <object x="201" y="403">
+   <polygon points="0,0 72,-38 145,-1"/>
+  </object>
+  <object x="108" y="1176" width="29" height="22"/>
+  <object x="24" y="1465" width="37" height="22"/>
+ </objectgroup>
+ <objectgroup name="wall" width="30" height="70"/>
+ <objectgroup name="nodes" width="30" height="70">
+  <object type="door" x="264" y="1584" width="24" height="48">
+   <properties>
+    <property name="level" value="village-forest"/>
+    <property name="reenter" value="true"/>
+   </properties>
+  </object>
+  <object type="entrance" x="249" y="1582" width="45" height="49"/>
+ </objectgroup>
+</map>
