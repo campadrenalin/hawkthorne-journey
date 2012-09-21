@@ -38,7 +38,7 @@ function state:init()
     end)
 
     table.insert(state.assets, function()
-        Gamestate.load('studyroom', Level.new('village-forest-treeline'))
+        Gamestate.load('studyroom', Level.new('studyroom'))
     end)
 
     table.insert(state.assets, function()
@@ -60,6 +60,10 @@ function state:init()
 
     table.insert(state.assets, function()
         Gamestate.load('village-forest', Level.new('village-forest'))
+    end)
+
+    table.insert(state.assets, function()
+        Gamestate.load('village-forest-treeline', Level.new('village-forest-treeline'))
     end)
 
     table.insert(state.assets, function()
