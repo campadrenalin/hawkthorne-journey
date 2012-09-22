@@ -78,7 +78,7 @@
  </layer>
  <layer name="rope" width="30" height="145">
   <data encoding="base64" compression="zlib">
-   eJzt2DEOgCAMQFFOo6MH8P730pHBQY20CO8lzp+YFhNLAQAAAABgNJvu0N09qQsAAAAAPOPfJcSYbdd0dXX/2337rfSe+Mpss6SrO1L37t24nM/a8iDQQA/7HHmGep97v1PoW8T8XDWyuhFzayfJdAD0LQjO
+   eJzt2DsOgCAQQEFOo6UH8P730tLCwu+ywExi/YhhIaEUAAAAAAB6s+h23V0rdQEAAACAe7xdQozRZk1XV7fd7tO70n/iK6PtJV3dnrpXz8Zp/+Y/FwI/yDDPkWs4znP2M4XcIvbPWaNWN2Lfmsl2ZbhL3toAJiwJLA==
   </data>
  </layer>
  <layer name="Leaves 1" width="30" height="145">
@@ -184,6 +184,20 @@
     <property name="speed" value="0.8"/>
     <property name="sprite" value="images/logs.png"/>
     <property name="start" value="0"/>
+   </properties>
+  </object>
+  <object type="door" x="264" y="3456" width="24" height="24">
+   <properties>
+    <property name="entrance" value="from-vft"/>
+    <property name="instant" value="true"/>
+    <property name="level" value="village-forest"/>
+    <property name="reenter" value="true"/>
+   </properties>
+  </object>
+  <object type="climbable" x="264" y="3432" width="24" height="48"/>
+  <object type="entrance" x="254" y="3418" width="45" height="49">
+   <properties>
+    <property name="name" value="from-vf"/>
    </properties>
   </object>
  </objectgroup>

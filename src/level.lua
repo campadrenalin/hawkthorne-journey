@@ -172,6 +172,7 @@ function Level.new(name)
     level.spawn = 'studyroom'
     level.title = getTitle(level.map)
     level.character = defaultCharacter()
+    level.entrances = {}
 
     local player = Player.new(level.collider)
     player:loadCharacter(level.character)
@@ -186,7 +187,11 @@ function Level.new(name)
         end
 
         if v.type == 'entrance' then
-            player.position = {x=v.x, y=v.y}
+            if v.properties.name then
+                level.entrances[v.properties.name] = {x=v.x, y=v.y}
+            else
+                player.position = {x=v.x, y=v.y}
+            end
         else 
             node = load_node(v.type)
             if node then
