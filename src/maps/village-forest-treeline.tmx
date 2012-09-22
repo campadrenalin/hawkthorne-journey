@@ -180,7 +180,7 @@
    <properties>
     <property name="line" value="log_1"/>
     <property name="offset_x" value="-6"/>
-    <property name="offset_y" value="-24"/>
+    <property name="offset_y" value="0"/>
     <property name="speed" value="0.8"/>
     <property name="sprite" value="images/logs.png"/>
     <property name="start" value="0"/>
