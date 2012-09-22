@@ -112,5 +112,11 @@
  <objectgroup color="#0000ff" name="nodes" width="65" height="20">
   <object type="entrance" x="24" y="360" width="48" height="48"/>
   <object type="exit" x="1512" y="0" width="48" height="408"/>
+  <object type="door" x="742" y="47" width="27" height="48">
+   <properties>
+    <property name="level" value="village-forest-treeline"/>
+    <property name="reenter " value="true"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
