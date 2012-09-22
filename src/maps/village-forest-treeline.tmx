@@ -1,133 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="30" height="70" tilewidth="24" tileheight="24">
+<map version="1.0" orientation="orthogonal" width="30" height="145" tilewidth="24" tileheight="24">
  <properties>
   <property name="blue" value="247"/>
   <property name="green" value="216"/>
-  <property name="offset" value="56"/>
+  <property name="offset" value="131"/>
   <property name="red" value="74"/>
   <property name="title" value="Treeline"/>
  </properties>
  <tileset firstgid="1" name="village-forest-treeline" tilewidth="24" tileheight="24">
   <image source="village-forest-treeline.png" width="288" height="288"/>
  </tileset>
- <layer name="mountains" width="30" height="70">
+ <layer name="mountains" width="30" height="145">
   <properties>
-   <property name="parallax" value="0.5"/>
+   <property name="parallax" value="0.3"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt0kEOQEAUBFGHmWM4nKNbIJmI8MfwWbxKatu16WEAAAAAAAD4N+PilN0sq1ntupnVPmq+3T5rtraj34g0o+3oN1qaV3vRb9xpbrZs1e2e5r4b/UZvs+4+sdXazW6Wj5okSZJkrzML+IS1
+   eJztmlEOgjAQBTkMB+AAHs6ja6MmDamw277diplJXvxpOgTbhW1YFgAAAAAAAACA3+D2yj3bub6T5a6dWe6WM9p95IxyW5xqt8epcvc4R90jzl63wul1K51Wd4TzzB3prN3b87dOtJMQogvAPzGjzyh89lO2u97Lme59HVG6j/7DVg1TuM96xW/1c8Rt6RWPaneP29ornj03PG5Pr2h5Zlnc3l7RM1bh7EnLnfGeX7Lt3vUznMq07hvnUXnOaPeM86jF4Ixwe/e8tV5G1DbrnBG1zTpnPU5VT61zlnHqGn7VGk0IuWYAAABAD+cVuc5ot/K8wro2lN/PWNeG8vsZ69oY6ac9cynPDbzXrzo3UF1/jzfbuU5yEkIIIYQQMpoHR444BA==
   </data>
  </layer>
- <layer name="mountains shades" width="30" height="70">
+ <layer name="mountains shades" width="30" height="145">
   <properties>
-   <property name="parallax" value="0.5"/>
+   <property name="parallax" value="0.3"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztzdEJgDAMRdGOplb3X6k4QEsjqSKcA/cv5JUCAAAAAO+4AkX+Ze6Ofkbun2z2ds9Os3czRX9lbH7ZrUrJHdKCdkn6SZu0oAYk6t/v
+   eJztmksOwyAMBXOz0k/uf6Wqi0rZtDbB9otgRppVELPEoGwbAAAAAAAAAADMzO5Q1Y1uvzpVNCPaZ5sj7WeQimZPO7pptbN6VvsxuXec2oYlAsA42fO2p1vZzpr1rf2y7hnWfqMz+dn5vbJ7bFd3v+2KeflKrjY/N5FQg+JdqKebfW5ctWm1vd8ju9aa4zfFeYR1qs/hVc595o0ab4sJAAAAAL+Jfivwrs26t3vv8KPdf+/GnnUee/eKaCr9oL4L43yq3xtwTtX/JSEiem2ICb4BbH3/Ng==
   </data>
  </layer>
- <layer name="clouds" width="30" height="70">
+ <layer name="clouds" width="30" height="145">
   <properties>
-   <property name="parallax" value="0.65"/>
+   <property name="parallax" value="0.4"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1jEKwCAMBdBM7bV6NI/m0ZqhBccMrdD6HohLIKCSbwQAADDTlmuPaLm3yX2P7Ntz7zP7Av92zbTpc+2eaeba2ry/dzjX73FnAFSMeVGpeSpTxryo1MgUqFvhH3gCZnUbhw==
+   eJzt1jEKwCAMBdBM7bV6NI/WozVDC44ZrND6HohLIKCSbwQAAAAAAAAAAAAAAIy15dojWu5tct8j+565nzP7Av92z7Tpc+2Zaeba2ry/dzjX73FnAFT0eVGpGZUpfV5UamQK1K3wD7wAiZ0bhw==
   </data>
  </layer>
- <layer name="clouds overlap" width="30" height="70">
-  <properties>
-   <property name="parallax" value="0.65"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJztzbENACAMA8FUsBajMVpGI4ieEpo76SV3jgAAAAAAAAD4r1X9NGvPh7+jPnNXO1/9AncL27sDtQ==
-  </data>
- </layer>
- <layer name="background" width="30" height="70">
+ <layer name="clouds overlap" width="30" height="145">
   <properties>
    <property name="parallax" value="0.45"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt07sNgDAMRdFX0NFkAA/DKIySURiF0TASSJEQvxSJINfSK2JbOZUlqZei51Bn/bvZk/nVDi4uLi4uLi4ubl7h4n7Fbe1+cXFx23ZNGoI07fH3XMJ1S12SUM+Nf3atkqvNdm9cYwXdt//i4uLi4uLi4uLi4uLmugvAOKhp
+   eJztzbENACAMA0EqWIvRMlpGI4ieMtWd9JI7jwEAAAAAAAAAAAAAAAAAAAB0mNV6Re1o/N31mbfa2fUL/B3+4wO1
   </data>
  </layer>
- <layer name="Leaves -1" width="30" height="70">
+ <layer name="background" width="30" height="145">
+  <properties>
+   <property name="parallax" value="0.55"/>
+  </properties>
   <data encoding="base64" compression="zlib">
-   eJztmF0OgjAQhPug7/LeJh7CA3iUHoWjcBSOwlHcKjVN7Z+lUwjZSTYmEPdzKgxbhGCxWCwWi8VilUgKMd0iRefuKC71F5dI0bmRucytkdyJa9nEWPySYO7ZpCh7Bsoet+jYjGZe6dOvAcil3s8Qc0+uKdRa57hbPcvI91FcJ1dqueMWrqmQ5x7ckOchwTwB96eHynBVm/832MOwyZdu5TX1vPLyeFKfPH7zbdV6DWnlBfNYAWfS1HVUu64NuHMrzjrTf/v14vr3bU+um5G9udazf68g7ptcRrZWbMaOPYPRXLTno3HRKuW1/i0InyV9EGtcsgdF+T06l45rU5QXuge3FetfLkI9uQ/qS2VyfYnkPZRr5L9LQq6xy13f52jnWu3CTcnOxr24/iyO5sZmfxQ3tddAcnN71hcQp1TD
+   eJztzcsJg1AQBdC7yM6NBbxiLMVSLMVSLC0voCBIoslCiZyBu5gPc5KkSYaaTb2b7+2O7D/dcLlcLpfL5XK5XC6Xy+VyuVwul8vlcrlcLpfL5XK5XC6Xy+VyuVwul8vlcrnc/3FL0rXJuKT20xlutfJYpb3OHe7slovczHb1+lfKie63f7lcLpfL5XK5XC73V/cJuEZbxA==
   </data>
  </layer>
- <layer name="Trees 1" width="30" height="70">
+ <layer name="background leaves" width="30" height="145">
+  <properties>
+   <property name="parallax" value="0.6"/>
+  </properties>
   <data encoding="base64" compression="zlib">
-   eJztl9sOwiAMhkl8D/VGne5qujgfj0e3ZMMQUs4nYTQhO0D77YdCVkK6deu2B5sKMC+E0Gm9ZrV548474w7Q7tAembk59d6AeW14fRlDjt8iF3KUQq7SoQK92FibeJ1bD/cJ15ciFj9zWtKbgivu6T3ojcXV5V5K7j/Ps4t1bjmu/C42V3X26rjYN/jUP656sT6f/5iUXN36yH3Y3NtwsTrEhauKbaPXJR91XOz/NAe3lN4YXFX92are2rmYf+eaTRw7wv3o4Z+TO1bKlWJ5c0OMcy3HRuF+wH8xcNl3vT253BeLb9Ir+h6hnRJxxWc+H9w3pV7sOZS7rBqSckV/nd7D1nJw5T4XvVAPs7r4d27IWkK44nro9IrcM7yDXKfHRHpV3Bh6Q7l8vlRc7LyqRa+8N1NymZXQa+Ka1rcWvV9eBhCZ
+   eJzt0UEKg1AMRdEMdN7Ov+BSuxSX1qX0CxWkOKsmCOfAG19CIgAAAAAAAAAAAACAfz0j5nVTX2Z33C2zPUZN+7eb1T7q9n+/dK/vTgXdjFuPuhm3rvp9721ZTYC7aBFLRXMoamZ3H9+mru6ZWlF3367QiroAAJzvA0rYDCU=
   </data>
  </layer>
- <layer name="rope" width="30" height="70">
+ <layer name="Leaves -1" width="30" height="145">
+  <properties>
+   <property name="parallax" value="0.9"/>
+  </properties>
   <data encoding="base64" compression="zlib">
-   eJzt18ENgCAMhWFG8SRHB3D/vYQ7SaWWUuT/Em/Ck1gspgQAAODr2iz3npQLAMDfSb19VO+X5h3V+7Xz7nb20uRavDPOmkBsZ7myYhx7GzNF6aWHUy51L4tSE14Z2tyeca1739Ti1+e1XFvP3lntn4LvAqoHKYwHMA==
+   eJztmdGNwyAMhnlo3tN3KmWIDnCjZJSO0lE6SkY5UMKJcrYhEJO76v8k6yq14Ts3BGxqDAAAAAAAAAAAAAAAAAAAAAAAAADA3+JmzHSGdzjJPWxxdW4fvf6HgYgebsrr8n7Au+LuwdO9/3R/X7283hl9pshr3TVjFHa7jplXb96QI/E51h18F/c6jpHxxrlyvlzOlvDF4XOWcr0yvlzOo+AMOUv39VbgpXLOeS/rdUuI9L6W5FzrzZHL2b0/a3iN4XOmnEd6qZw5p8eu7lmKQrX3+Dkw+5CcAID/S7rPJ3v+pOWV1shRsW6D97O99iRvcDvHkobt0Id8Els9P8XR2i+VOPf0DppOba8b+2tvz9LDuzdnrkfV9qZr21jvfbR4Q496hpfKuaA33OWl1vIeXmPIe/xrjIKetNnL7R3e7XuzI3I15n3vSp3JeuzPrqbgj3rEKi+FdJ6jeYYpzSPNs8SM99UyNlHT/4yn6ZWe257eeI3s7Q05p8/Kkc+N5NWEq7G5PVjbq50zvOvZoq08C7TE+lPibc0z3k+lWvHoucz1v2kdwXjn3t7a7/nuxr1XeMN5dG2ue70trhbvUZztdd/dwsxVVa+npBbX8Ka/p2ie48ReiVAb9/Kmtbi2l6v9tby53461vLme9RsHa49f
   </data>
  </layer>
- <layer name="Leaves 1" width="30" height="70">
+ <layer name="Trees 1" width="30" height="145">
   <data encoding="base64" compression="zlib">
-   eJztmDFywjAQRZeQIimMm6SwncK9BzoKUrki1/BRfBSOkqNwlKwiayA7kscar1ZEoz/zR6ABP68sw/oDZFFVAH0B0Brj+1aCucGROjS7sDA3en7MXD5VDm4VmKtEa+autQa47P66rfV9o1iDMWetivmEIzWyv7kYNu0szMy9Ca9Lr64/de15nr5cnO851oeRO/pwa/2dgbp2HIeLa3Rc+Dlu7lJF5Lr2Ayv3jP7S4+9xp/1wpXbth9S0Rx8s3geu/4T+tPj0D9b9DLf9k/UY8r0mDfY1JTrYCTl4W3y9lYKiyomXuWlym0hcw8a6B2VhdDAt7c+yAJ7RHxH+B2MwfYXP4JfCYVvWxNVTuHKX0NlLSO7c2qRY75xc+VbqmR4yrtQSmZ6kph6xpW4CZ0+0dzEuA69v5mZuSlzai3fI6/S8lUuzqLVs04uv6cm7SL+pj8gl2dh477X52ByXZGPjvdfmY4Yr/Zxjq/cV5170KMp9x7k3PYpyJSTF/QGif1kC
+   eJztmsFuwyAMhpF23DusuWzr1lPXautxj5ZH26PNVYrkIptAsCGktoRQCvjjJ8RJnDp3b8/Ojc+OtgO0HZi2mKWMM65xjWtc4xrXuMY1rnGNa1zjGpca/wP1pQF3qd65PhrcFFsr9wXqHZSh4pxivo1rXC0ut9e1uS30zoz7g/IrPZ8tcCXnePWVuuekua30GrdP7jWWfE+1GpeKV5W45FzWyL1Mz9zjo+g17jJu+F62db2VuClzacrl3scXxo1k7qOtsyCXvOdVuA8at4CbkvdC15wYd2vrTK3jAG276X08J151oXeLXGwDOnc1ubifcXW5Pq5pc49MP03uKxwfp5rkxuJ+Dje08417ZrhSeiW5Jea5eygfUD4rc2vqfQffbwxX2zi90ozQ/xa5sEdH2KvjvgO9VN8Uf8bth/sF9Ynx5WNOr3r9fcFNNXnNSXDxNb2287tmbmzvaXJ7W+eSvsbV4Ya/SXO52BvjUr6PkbacOeZw8XWyFm5sHmEbtfYp3H0hl/OtrRf/Rj2f1uCW6D1N95Jm6xy+f9bi9rSv1sSlxht33nBfn/PKHV+T6/MwLbhhviaHG/harLfEUnPHklzuW1c4L59jy+XG8nNzevFY/387DS4+DnPkmnqp41IuleeW5uLxMb1Pt1KDG7bl6PXPMj5uxL7P5XLx+YjpxdzB3X1HFdfLcSX0lnL9enFcKl71opf6b5cW92ot9M5x585vL3r/AQeJIzc=
   </data>
  </layer>
- <layer name="Leaves 2" width="30" height="70">
+ <layer name="Trees 2" width="30" height="145">
   <data encoding="base64" compression="zlib">
-   eJztmEEOgjAQRUfDlsZtGxbsPYAuPQpH4SgcxaNwFKehTUotVbQzSJyX/EAI4WVS0k4LIAiC8N9ogKEGaOPg8zul84DXVNDdczt98J22tLd+4aSqeSuvfsOricY4VzPVf2XJ1UzpBViumdqrJ0cXh2psBUHYH66/eOoxKPsLS2Ze/MhrsAYVxCx8p5TX+454H0YRe1Xk26G3p/S6dW+Ms3bdW+sthdnIC5Cu2TD0C2Zydz4cTkEQhBKcsA+waRjm6JjKhdtfwcw9855x/sY89WSuL2sLevuUN7WOqS/WlCpyc3q3qDd2h94r3l8IvegafRrGenME/7P1jGEoexXvpQTH0o4puzcG+/Ob24cO1HvPkHCfQn0m9wvecH8kZ4GCwMMD9O9JzA==
+   eJzt1zEOgzAMBdAcpSMgwQ4HKNfi6BixZGCjrVXynvRnW45lKaUAAADc9z6zZfcBAADQAn+wa8dc1mI2PM8YmWKv64w/2PM5skSdOvMH6rphAPnc4v/jzQAAACBXF+kjQ3YjAMDXvLIbAKBpO1KLDpc=
   </data>
  </layer>
- <layer name="Leaves 3" width="30" height="70">
+ <layer name="rope" width="30" height="145">
   <data encoding="base64" compression="zlib">
-   eJzt1kduwkAYhuEJe9jbK46RZVaR0ntvpPfeC4nTezmCj5KjcJS8yIk0smwltsZDEv2f9AhkAS/DAlBKJpPJZDKZviY0owWtaEM7OtCJLnSjB70Gu33oxwAGMYRhjGAUYxjHBEoGu5OYwjRmMIs5zGMBi1jCMlYMdlexhnVsYBNb2MYOdrGHfRwY7B7iCMc4QRmnOIOHc1zgElcGu9e4wS3ucI8HPOIJz3jBK95+8HqNAc/gW5TJZDWeo5Sf/8T9d1vNOm51Nvr5UFNrS/d/dz3bXa5VnIy7TtApfcm6J5PJ/ub033mbPf070caivou/m6tUQ0GpInw35W9U0i4dP8etjmvFrLuFUDMXXPOy7EadNe2Zk3Sjzpr2zE6NutWFz2yrG/5/Efc413A3yeLOnKZbn+A5cV034/NGfdZZN/U2565U2WrKZDLZb9oHRZ4+gQ==
+   eJzt2DEOgCAMQFFOo6MH8P730pHBQY20CO8lzp+YFhNLAQAAAABgNJvu0N09qQsAAAAAPOPfJcSYbdd0dXX/2337rfSe+Mpss6SrO1L37t24nM/a8iDQQA/7HHmGep97v1PoW8T8XDWyuhFzayfJdAD0LQjO
   </data>
  </layer>
- <layer name="Leaves 4" width="30" height="70">
+ <layer name="Leaves 1" width="30" height="145">
   <data encoding="base64" compression="zlib">
-   eJztlj0KwkAQRkdSB+uQxqPY+lMJ2mvvAew8So7iUXIUv8UVwoJYmJ0pfA8epFjy2C1m1wwAAADmYiO3cif3H9YcKnSP8lThv984y0tA9xrQTNyCugAAAAD/ztJs1UvvbpP1bjcW0552deZ3unTn7vYBXc+9Truee01on6N3s6QzW7dmQ1LfD6+uerbIto5nQJcu3d/pXr0x2QXPsFpoPg+940x8k+/AkG6+B13bxXvDrV28r+hW4gk5/xu9
+   eJztmk1ygkAQRsdkkyzETbIANuwts8vCrFyZa3gUjuJRPIpHSRNoM9WZGQbnh4T6XtVXWBbyaFAHelAKAAAAAAAAAMB/p1bqvBlCry+5fI/0mrMxeCtap9BSBe7bRvNp3lauRy71IBIC1Xt1eblO6Qz1KvW75s7r8qX0mo7rmJf29SC+A43LW/euK6e+02v6jI9/bBv3eDm+7tjewvAbieHtzq1rXV9v1a978vWO7aev12d7Kb2VfTsXn/W079XNq48F2pjQ+NQsva6aC+GU/48c6eZzracyHDdbzfq6pvHANS74ImuW59XlNdXsy3Bsrhx5XMa8ITW7gDePt57Jq5S75jqhV473+rifygkAAAAAAACwUyp1WNM9Lae88/52qnNFS5nU7rXBuerfb+GNR2nxlhnu+2TNsWuV8x6Upup/N53rxIlZa2WZDzD19GLi6A/Cq27zH43M1Lmwqd7C0pufenwietspXlOf2NYrjull3j3Xi+31ZUZvlLmPMY6Uz375vV3ZG7f1yJfKjvJmyC5x/XvKhyH7iF6uLXYtR/Xz/THBtcWsBbgZOycSns9MtkMWH8995ELOv8C7LK+c28vJMMd26pJZnQzf6zMAXNA9+HltianXNHX8smHru6TuvSzR6zonc9Vr628tvadHjqtMjp5eToZrxEYm9bPXtmd0Uj4XBC+8S/PKa/Et+bbK/pyb7EWFuvlaPOSafDvTf+pf9IreWKsntKfk8oreWKsntKfE3tz3OaZ6n+m9p36Z1ftK7730y6zeHOTyfgFhr47+
   </data>
  </layer>
- <objectgroup name="platform" width="30" height="70" visible="0">
-  <object x="251" y="1536" width="214" height="23"/>
-  <object x="132" y="1584" width="35" height="23"/>
-  <object x="251" y="1633" width="35" height="23"/>
-  <object x="183" y="1487" width="44" height="25"/>
-  <object x="347" y="1392" width="36" height="25"/>
-  <object x="589" y="1464" width="33" height="25"/>
-  <object x="622" y="1344" width="36" height="23"/>
-  <object x="647" y="1427" width="73" height="21"/>
-  <object x="431" y="1296" width="35" height="23"/>
-  <object x="13" y="1343" width="41" height="23"/>
-  <object x="216" y="1090" width="48" height="18"/>
-  <object x="251" y="1032" width="42" height="25"/>
-  <object x="570" y="960" width="41" height="23"/>
-  <object x="484" y="912" width="31" height="23"/>
-  <object x="363" y="840" width="32" height="24"/>
-  <object x="108" y="937" width="40" height="23"/>
-  <object x="672" y="1019" width="47" height="23"/>
-  <object x="635" y="672" width="36" height="25"/>
-  <object x="383" y="683" width="48" height="21"/>
-  <object x="210" y="624" width="41" height="23"/>
-  <object x="119" y="610" width="49" height="21"/>
-  <object x="421" y="552" width="189" height="23"/>
-  <object x="89" y="432" width="41" height="23"/>
-  <object x="220" y="336" width="32" height="23"/>
-  <object x="301" y="288" width="40" height="23"/>
-  <object x="601" y="491" width="47" height="18"/>
-  <object x="148" y="475" width="223" height="19"/>
-  <object x="174" y="426" width="48" height="17"/>
-  <object x="201" y="403">
+ <layer name="Leaves 2" width="30" height="145">
+  <data encoding="base64" compression="zlib">
+   eJztmkFuwjAQRd0qW6JuY7HIvgdolz0KR8lRepQeJUdhUmxpMMECmpk04j3pS4YFT6MgezxKCAAAAAAAAAAAAAC30YXwtQuhz5HPvYfvRdY68t1g6d0VPrx48W7H250chzKdsRcAAAAAAABgC8j9+FvP99Sc78fSOTcjsJwT1Jw5FrPNa/MQ65rX8nY3eK1mMrWaLedPtZqZtwHAs5L6i4sew7K/mKjsiw95o9TQqsQrv7OUN/teZa3TGnvbwrdB72DpTefeWObec+9e71LElbwhzNccHfqFeHIfcjycAABL8CZ9wJS9wx5d0qR4+5tw5j7zvsv+LbnoyVJf1i/oHea8c+dY+4czpSncnt416i3d2vsp6w9Dr7jGnL1jvTXU/3nyjDqWvUr2WiLPcnqm7t6S9F7p713U+u6p0fcU65ncf/Dq+xGzQAAfjsqGU8c=
+  </data>
+ </layer>
+ <layer name="Leaves 3" width="30" height="145">
+  <data encoding="base64" compression="zlib">
+   eJzt1kduwlAARdEf5jC3Rywjw4wipffeSO+9d6f3sgQvJUthKbmIRLIso8SWbVLelY5AFvD4DABjlFJKKaWUUkoppZRSSimllFJKKaWUUkoppdR/qwGNaEIzWtCKNrSjA53oQneMuz3oRR/6MYBBDGEYIxjFGAox7o5jApOYwjRmMIs5zGMBi1iKcXcZK1jFGtaxgU1sYRs72MVejLv7OMAhjnCME5zCwRnOcYHLGHevcI0b3OIO93jAI57wjBe8fuP16sucGN+iUqrKWca42Q/cf0trs4ZbrzT2s75Nz7Z2//auk/Yu14pWwrtWeafwKek9pdTvzPs7n+ae9zsxjYK+i7/KNqYuZ0werh3xNyrsLjtuhlsvruWT3s35NjPla06Su0FnjXrmMLtBZ416ZqtKu6X8Z05r1///otLj7Jh3w1TpzFF2a0M8p9KunfB5gz7rpDe925y7WJLWplJK/aTeAWjGPoE=
+  </data>
+ </layer>
+ <layer name="Leaves 4" width="30" height="145">
+  <data encoding="base64" compression="zlib">
+   eJzt1j0KwkAUReEnqYN1SONSbP2pBO21dwF2LiVLcSlZindwhDAgCjrvFZ4PLlgED0kxiRkAAAAAAAAAAAAAAAAAAADwuZW21jba9sU1uwrdvXao8L/vHLVTQPcc0EwuQV0AAIB/Nzdb9Jp3t8nzbjcW05529cyvdOn+utsHdD3vddr1vNdE9zl6N0ud2bI1G9L0++bVVc9mea3jM6BLl+73ukdvTOuCz7BadD4PveOZ+JTfgSHd/B50bRffG27t4vuKbiV3XScbvQ==
+  </data>
+ </layer>
+ <objectgroup name="platform" width="30" height="145">
+  <object x="240" y="3336" width="240" height="24"/>
+  <object x="123" y="3384" width="44" height="23"/>
+  <object x="243" y="3432" width="44" height="23"/>
+  <object x="184" y="3288" width="48" height="25"/>
+  <object x="336" y="3192" width="48" height="24"/>
+  <object x="576" y="3264" width="48" height="24"/>
+  <object x="624" y="3144" width="48" height="24"/>
+  <object x="648" y="3216" width="73" height="21"/>
+  <object x="432" y="3096" width="48" height="24"/>
+  <object x="10" y="3144" width="45" height="24"/>
+  <object x="216" y="2904" width="48" height="24"/>
+  <object x="240" y="2832" width="53" height="25"/>
+  <object x="568" y="2760" width="47" height="23"/>
+  <object x="480" y="2712" width="48" height="24"/>
+  <object x="363" y="2640" width="37" height="24"/>
+  <object x="100" y="2736" width="51" height="25"/>
+  <object x="672" y="2808" width="48" height="24"/>
+  <object x="624" y="2472" width="48" height="24"/>
+  <object x="384" y="2472" width="48" height="24"/>
+  <object x="210" y="2424" width="50" height="24"/>
+  <object x="120" y="2400" width="48" height="24"/>
+  <object x="408" y="2352" width="216" height="24"/>
+  <object x="89" y="2232" width="44" height="24"/>
+  <object x="216" y="2136" width="48" height="24"/>
+  <object x="288" y="2088" width="52" height="24"/>
+  <object x="600" y="2280" width="48" height="24"/>
+  <object x="137" y="2278" width="234" height="24"/>
+  <object x="168" y="2232" width="48" height="24"/>
+  <object x="201" y="2203">
    <polygon points="0,0 72,-38 145,-1"/>
   </object>
-  <object x="108" y="1176" width="29" height="22"/>
-  <object x="24" y="1465" width="37" height="22"/>
+  <object x="96" y="2976" width="48" height="24"/>
+  <object x="24" y="3264" width="48" height="24"/>
+  <object x="288" y="2400" width="120" height="24"/>
+  <object x="345" y="2229" width="46" height="20"/>
+  <object x="192" y="2808" width="39" height="24"/>
+  <object x="439" y="2016" width="39" height="23"/>
+  <object x="350" y="1872" width="50" height="24"/>
+  <object x="599" y="1920" width="48" height="23"/>
+  <object x="143" y="1847" width="48" height="23"/>
+  <object x="568" y="1776" width="43" height="23"/>
+  <object x="633" y="1704" width="38" height="23"/>
+  <object x="440" y="1536" width="176" height="24"/>
+  <object x="264" y="1560" width="47" height="24"/>
+  <object x="301" y="1440" width="35" height="23"/>
+  <object x="576" y="1320" width="41" height="24"/>
+  <object x="384" y="1368" width="73" height="24"/>
+  <object x="144" y="1320" width="48" height="24"/>
+  <object x="360" y="1968" width="38" height="23"/>
+  <object x="120" y="1728" width="41" height="24"/>
+  <object x="437" y="1776" width="43" height="25"/>
+  <object x="632" y="1104" width="47" height="23"/>
+  <object x="28" y="3048" width="36" height="24"/>
+  <object x="465" y="984" width="47" height="23"/>
+  <object x="292" y="840" width="52" height="25"/>
  </objectgroup>
- <objectgroup name="wall" width="30" height="70"/>
- <objectgroup name="nodes" width="30" height="70">
-  <object type="door" x="264" y="1584" width="24" height="48">
+ <objectgroup name="wall" width="30" height="145"/>
+ <objectgroup name="nodes" width="30" height="145">
+  <object type="door" x="264" y="3384" width="24" height="48">
    <properties>
     <property name="level" value="village-forest"/>
     <property name="reenter" value="true"/>
    </properties>
   </object>
-  <object type="entrance" x="249" y="1582" width="45" height="49"/>
+  <object type="entrance" x="249" y="3382" width="45" height="49"/>
+  <object type="climbable" x="24" y="3144" width="24" height="72"/>
+  <object type="climbable" x="672" y="3096" width="24" height="72"/>
+  <object type="climbable" x="600" y="3264" width="24" height="72"/>
+  <object type="climbable" x="648" y="2640" width="24" height="72"/>
+  <object type="climbable" x="96" y="2232" width="24" height="72"/>
+  <object type="climbable" x="162" y="2227" width="15" height="48"/>
+  <object type="climbable" x="312" y="2400" width="24" height="264"/>
+  <object type="climbable" x="576" y="2760" width="24" height="216"/>
+  <object type="climbable" x="648" y="1104" width="24" height="120"/>
+  <object type="movingplatform" x="504" y="1632" width="72" height="24">
+   <properties>
+    <property name="line" value="log_1"/>
+    <property name="offset_x" value="-6"/>
+    <property name="offset_y" value="-24"/>
+    <property name="speed" value="0.8"/>
+    <property name="sprite" value="images/logs.png"/>
+    <property name="start" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="movement" width="30" height="145">
+  <object name="log_1" x="552" y="1650">
+   <polyline points="0,0 -216,0"/>
+  </object>
  </objectgroup>
 </map>
