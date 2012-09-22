@@ -35,10 +35,11 @@ function Door:switch(player)
         Gamestate.switch(self.level, current.character)
     else
         Gamestate.switch(self.level)
-        if self.entrance ~= nil then
-            local coordinates = level.entrances[self.entrance]
-            level.player.position = {x=coordinates.x, y=coordinates.y} -- Copy, or player position corrupts entrance data
-        end
+    end
+    if self.entrance ~= nil then
+        local level = Gamestate.get(self.level)
+        local coordinates = level.entrances[self.entrance]
+        level.player.position = {x=coordinates.x, y=coordinates.y} -- Copy, or player position corrupts entrance data
     end
 end
 

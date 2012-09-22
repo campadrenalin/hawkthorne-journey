@@ -186,7 +186,7 @@
     <property name="start" value="0"/>
    </properties>
   </object>
-  <object type="door" x="264" y="3456" width="24" height="24">
+  <object type="door" x="264" y="3475" width="24" height="4">
    <properties>
     <property name="entrance" value="from-vft"/>
     <property name="instant" value="true"/>
@@ -195,7 +195,7 @@
    </properties>
   </object>
   <object type="climbable" x="264" y="3432" width="24" height="48"/>
-  <object type="entrance" x="254" y="3418" width="45" height="49">
+  <object type="entrance" x="254" y="3396" width="45" height="49">
    <properties>
     <property name="name" value="from-vf"/>
    </properties>

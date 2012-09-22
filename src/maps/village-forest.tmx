@@ -112,16 +112,15 @@
  <objectgroup color="#0000ff" name="nodes" width="65" height="25">
   <object type="entrance" x="24" y="480" width="48" height="48"/>
   <object type="exit" x="1512" y="120" width="48" height="408"/>
-  <object type="door" x="1104" y="0" width="24" height="48">
+  <object type="door" x="1104" y="0" width="48" height="24">
    <properties>
     <property name="entrance" value="from-vf"/>
     <property name="instant" value="true"/>
     <property name="level" value="village-forest-treeline"/>
-    <property name="reenter" value="true"/>
    </properties>
   </object>
   <object type="climbable" x="1104" y="0" width="24" height="96"/>
-  <object type="entrance" x="1104" y="48" width="48" height="48">
+  <object type="entrance" x="1093" y="49" width="48" height="48">
    <properties>
     <property name="name" value="from-vft"/>
    </properties>
