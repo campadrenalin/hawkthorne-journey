@@ -16,26 +16,28 @@ local import_levels = {
     ['lab']         = 'lab',
     ['house']       = 'house',
     ['studyroom']   = 'studyroom',
+    ['hallway']     = 'hallway',
     ['forest']      = 'forest',
     ['forest2']     = 'forest2',
-    ['black-caverns']  = 'black-caverns',
-    ['village-forest'] = 'village-forest',
-    ['town']        = 'town',
-    ['tavern']      = 'tavern',
-    ['blacksmith']  = 'blacksmith',
-    ['deans-office-1']   = 'deans-office-1',
-    ['deans-office-2']   = 'deans-office-2',
-    ['deans-closet']     = 'deans-closet',
+    ['black-caverns']      = 'black-caverns',
+    ['village-forest']     = 'village-forest',
+    ['town']               = 'town',
+    ['tavern']             = 'tavern',
+    ['blacksmith']         = 'blacksmith',
+    ['greendale-exterior'] = 'greendale-exterior',
+    ['deans-office-1']     = 'deans-office-1',
+    ['deans-office-2']     = 'deans-office-2',
+    ['deans-closet']       = 'deans-closet',
     ['baseball']    = 'baseball',
     ['dorm-lobby']  = 'dorm-lobby',
-    ['borchert-hallway'] = 'borchert-hallway',
-    ['admin-hallway']    = 'admin-hallway',
-    ['class-hallway-1']  = 'class-hallway-1',
-    ['class-hallway-2']  = 'class-hallway-2',
-    ['rave-hallway']     = 'rave-hallway',
-    ['class-basement']   = 'class-basement',
-    ['gazette-office-1'] = 'gazette-office-1',
-    ['gazette-office-2'] = 'gazette-office-2',
+    ['borchert-hallway']   = 'borchert-hallway',
+    ['admin-hallway']      = 'admin-hallway',
+    ['class-hallway-1']    = 'class-hallway-1',
+    ['class-hallway-2']    = 'class-hallway-2',
+    ['rave-hallway']       = 'rave-hallway',
+    ['class-basement']     = 'class-basement',
+    ['gazette-office-1']   = 'gazette-office-1',
+    ['gazette-office-2']   = 'gazette-office-2',
 }
 local import_interfaces = {
     ['overworld']   = 'overworld',
@@ -46,7 +48,7 @@ local import_interfaces = {
     ['cheatscreen'] = 'cheatscreen',
     ['instructions']= 'instructions',
     ['options']     = 'options',
-    ['blackjackgame']    = 'blackjackgame',
+    ['blackjackgame']      = 'blackjackgame',
 }
 
 function state:init()
@@ -85,7 +87,6 @@ function state:loadAsset(asset_data)
     local atype = asset_data[1]
     local aname = asset_data[2]
     local avalue = nil
-    print(aname)
     if atype == "level" then
         avalue = Level.new(import_levels[aname])
     else
