@@ -84,6 +84,12 @@ function state:keypressed(key)
             elseif self.cmd.current == 'spacetime' then
                 cheat.god = not cheat.god
                 table.insert( self.cmd.queue, self.cmd.space .. 'God Mode: ' .. ( cheat.god and 'Enabled' or 'Disabled' ) )
+            elseif string.find(self.cmd.current, 'reload (%S*) (%S*)') then
+                for subcommand, level in string.gmatch(self.cmd.current, 'reload (%S*) (%S*)') do
+                    table.insert( self.cmd.queue, self.cmd.space .. 'reloading ' .. subcommand .. ' ' .. level .. '...')
+                    Gamestate.loadAsset({subcommand, level})
+                    table.insert( self.cmd.queue, self.cmd.space .. 'Done!' )
+                end
             else
                 table.insert( self.cmd.queue, self.cmd.space .. self.cmd.cnf )
             end

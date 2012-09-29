@@ -75,7 +75,7 @@ function state:update(dt)
     local asset = state.assets[self.current]
 
     if asset ~= nil then
-        self:loadAsset(asset)
+        Gamestate.loadAsset(asset)
         self.current = self.current + 1
     else
         self.finished = true
@@ -83,12 +83,13 @@ function state:update(dt)
     end
 end
 
-function state:loadAsset(asset_data)
+function Gamestate.loadAsset(asset_data)
     local atype = asset_data[1]
     local aname = asset_data[2]
     local avalue = nil
     if atype == "level" then
         avalue = Level.new(import_levels[aname])
+        --print(aname .. ": " .. import_levels[aname] .. " ( " .. tostring(Gamestate.get(aname)) .. " => " .. tostring(avalue) .. ")")
     else
         avalue = require(import_interfaces[aname])
     end

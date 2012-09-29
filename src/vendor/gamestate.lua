@@ -53,6 +53,7 @@ end
 
 function GS.load(name, state)
     states[name] = state
+    print("Setting level ".. name .." " .. tostring(state) .. " through Gamestate " .. tostring(states) )
 end
 
 function GS.currentState()
@@ -72,6 +73,7 @@ function GS.switch(to, ...)
         local name = to
         to = GS.get(to)
 	    assert(to, "Failed loading gamestate " .. name)
+        print("Entering level ".. name .." " .. tostring(to) .. " through Gamestate " .. tostring(states) )
     end
 
 	current:leave()

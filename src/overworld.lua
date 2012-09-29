@@ -231,7 +231,7 @@ function state:keypressed(key)
         end
 
         local level = Gamestate.get(self.zone.level)
-        Gamestate.load(self.zone.level, level.new(level.name))
+        --Gamestate.load(self.zone.level, level.new(level.name))
         Gamestate.switch(self.zone.level, self.character)
     end
 
