@@ -672,6 +672,7 @@
     <property name="width" value="36"/>
    </properties>
   </object>
+  <object type="turkey" x="960" y="120" width="72" height="72"/>
  </objectgroup>
  <objectgroup name="floor" width="125" height="37">
   <object x="2208" y="456" width="72" height="120"/>

@@ -17,8 +17,8 @@ function Turkey.new(node, collider)
     setmetatable(turkey, Turkey)
     turkey.collider = collider
     turkey.dead = false
-    turkey.width = 48
-    turkey.height = 48
+    turkey.width = 72
+    turkey.height = 72
     turkey.damage = 1
 
     turkey.position = {x=node.x, y=node.y}
