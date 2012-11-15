@@ -32,6 +32,7 @@ if correctVersion then
     cli:add_option("-l, --level=NAME", "The level to display")
     cli:add_option("-c, --character=NAME", "The character to use in the game")
     cli:add_option("-m, --mute=CHANNEL", "Disable sound: all, music, sfx")
+    cli:add_option("-debug", "Debug with ZeroBrane Studio IDE")
 
     local args = cli:parse(arg)
 
@@ -52,6 +53,13 @@ if correctVersion then
       sound.volume('music',0)
     elseif args["mute"] == 'sfx' then
       sound.volume('sfx',0)
+    end
+
+    if args["debug"] then
+      require("mobdebug").start()
+      _G['memdebug'] = require "memdebug"
+      _G['gamestate'] = Gamestate
+      _G['currentLevel'] = Gamestate.currentState
     end
 
     love.graphics.setDefaultImageFilter('nearest', 'nearest')
