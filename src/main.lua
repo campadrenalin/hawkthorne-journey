@@ -11,6 +11,7 @@ if correctVersion then
   local controls = require 'controls'
   local hud = require 'hud'
   local cli = require 'vendor/cliargs'
+  local memdebug = nil
 
   -- XXX Hack for level loading
   Gamestate.Level = Level
@@ -33,6 +34,7 @@ if correctVersion then
     cli:add_option("-c, --character=NAME", "The character to use in the game")
     cli:add_option("-m, --mute=CHANNEL", "Disable sound: all, music, sfx")
     cli:add_option("-debug", "Debug with ZeroBrane Studio IDE")
+    cli:add_option("--memdebug", "Debug memory with console output")
 
     local args = cli:parse(arg)
 
@@ -62,6 +64,11 @@ if correctVersion then
       _G['currentLevel'] = Gamestate.currentState
     end
 
+    if args["memdebug"] then
+      memdebug = require 'memdebug'
+      memdebug:init()
+    end
+
     love.graphics.setDefaultImageFilter('nearest', 'nearest')
     camera:setScale(window.scale, window.scale)
     love.graphics.setMode(window.screen_width, window.screen_height)
@@ -74,6 +81,7 @@ if correctVersion then
     dt = math.min(0.033333333, dt)
     Gamestate.update(dt)
     sound.cleanup()
+    if memdebug then memdebug:update(dt) end
   end
 
   function love.keyreleased(key)

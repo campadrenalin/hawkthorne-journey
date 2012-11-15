@@ -6,6 +6,34 @@
 local MemDebugger = {}
 MemDebugger.__index = MemDebugger
 
+MemDebugger.count_frequency = 1
+MemDebugger.count_accumulation = 0
+
+function MemDebugger:init()
+  self.global_type_table_preload()
+end
+
+function MemDebugger:update(dt)
+  self.count_accumulation = self.count_accumulation + dt
+  if self.count_accumulation > self.count_frequency then
+    self.count_accumulation = 0
+    local counts = self.type_count()
+    local output = "{"
+    local is_first = true
+    for label, count in pairs(counts) do
+      if is_first then
+        is_first = false
+      else
+        output = output .. ", "
+      end
+
+      output = output .. label .. " = " .. tostring(count)
+    end
+
+    print(output .. "}")
+  end
+end
+
 function MemDebugger.count_all(f)
 	local seen = {}
 	local count_table
@@ -37,7 +65,7 @@ end
 local global_type_table = nil
 local preloaded_type_names = {
   'vendor/gamestate',
-  'vendor/TESound',
+  --'vendor/TESound',
   'blackjackgame',
   'camera',
   'characterstrip',
