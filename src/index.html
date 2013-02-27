@@ -32,8 +32,16 @@
 <script type="text/javascript">gShaderCode_Fragment = LoadShaderCode("../js/fragment.shader");</script>
 <script type="text/javascript">gShaderCode_Vertex   = LoadShaderCode("../js/vertex.shader");</script>
 
+<script>
+    var fonts = [
+        'images/fonts/big.png',
+        'images/fonts/courier.png',
+        'images/fonts/arial.png'
+    ];
+    window._hawkthorne_preloads = fonts;
+</script>
 </head>
-<body onload="MainOnLoad([])">
+<body onload="MainOnLoad(window._hawkthorne_preloads)">
 <canvas id="glcanvas">  
 Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.  
 </canvas>

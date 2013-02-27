@@ -7,7 +7,7 @@
 -- given a value, it maps from the in range to the out range
 -- useful for mapping variables to color or alpha values
 function map( x, in_min, in_max, out_min, out_max)
-  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 end
 
 -- Averages an arbitrary number of angles (in radians).

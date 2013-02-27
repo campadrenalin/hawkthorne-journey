@@ -1,4 +1,5 @@
 local correctVersion = require 'correctversion'
+local fonts = require 'fonts'
 
 if correctVersion then
 
