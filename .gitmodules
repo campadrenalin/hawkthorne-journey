@@ -1,0 +1,3 @@
+[submodule "src/webplayer"]
+	path = src/webplayer
+	url = git://github.com/ghoulsblade/love-webplayer.git
